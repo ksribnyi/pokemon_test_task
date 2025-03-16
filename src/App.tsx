@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import BattleTowerForm from './pages/BattleTowerForm';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <p>Welcome to Luna Edge technical interview</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <BattleTowerForm />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
